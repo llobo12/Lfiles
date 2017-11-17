@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* CSS Document */
+header{
+	background-color: #7B7B7B;
+	padding: 10px;
+}
+#sec-slide{
+	background-image: url(../img/bg-parallax.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	color: #FFFFFF;
+	padding: 100px 0px;
+	text-align: center;
+}
+#sec-slide h4{
+	font-family: "Segoe UI";
+	font-size: 32px;
+	font-weight: 300;
+}
+#sec-slide h1{
+	font-family: "Segoe UI";
+	font-size: 65px;
+	font-weight: 600;
+}
+#sec-slide p{
+	font-size: 18px;
+	margin-left: 300px;
+	margin-right: 300px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+#sec-slide .btn-warning{
+	text-transform: uppercase;
+	background-color: #F38E00;
+	color: #FFFFFF;
+	margin: 20px;
+	font-family: "Segoe UI";
+	font-weight: 200;
+}
+#sec-slide .btn-warning:hover{
+	background-color: #323232;
+}
+#sec-slide .btn-default{
+	text-transform: uppercase;
+	background-color: transparent;
+	border: solid 2px;
+	color: #FFFFFF;
+	margin: 20px;
+	font-family: "Segoe UI";
+	font-weight: 200;
+}
+#sec-slide .btn-warning:hover{
+	background-color: #F38E00;
+}
+.title{
+	font-family: "Segoe UI";
+	font-weight: 700;
+	font-size: 45px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#sec-counters{
+	background-color: #f3f0eb;
+}
+
+#sec-counters h3{
+	font-family: "Segoe UI";
+	color: #E7931A;
+	font-size: 68px;
+	text-align: center;
+	font-weight: 600;
+	
+}
+
+#sec-counters p{
+	font-size: 18px;
+}
+
+.section{
+	padding: 40px 0px;
+}
+
+
+
+
