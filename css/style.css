@@ -1,18 +1,19 @@
 @charset "UTF-8";
 /* CSS Document */
 header{
-	background-color: #7B7B7B;
+	background-color: #FFFFFF;
 	padding: 10px;
 }
 #sec-slide{
-	background-image: url(../img/bg-parallax.jpg);
+	/*background-image: url(../img/bg-parallax.jpg);*/
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
 	color: #FFFFFF;
-	padding: 100px 0px;
+	/*padding: 100px 0px;*/
 	text-align: center;
 }
+
 #sec-slide h4{
 	font-family: "Segoe UI";
 	font-size: 32px;
@@ -25,10 +26,8 @@ header{
 }
 #sec-slide p{
 	font-size: 18px;
-	margin-left: 300px;
-	margin-right: 300px;
-	padding-bottom: 30px;
-	padding-top: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 #sec-slide .btn-warning{
 	text-transform: uppercase;
@@ -83,5 +82,20 @@ header{
 }
 
 
+@media (max-width:480px){
+	#sec-slide h1{
+		font-size: 20px;
+	}
+	#sec-slide h4{
+		font-size: 14px;
+	}
+}
 
-
+@media (min-width: 480px) and (max-width:768px){
+	#sec-slide h1{
+		font-size: 24px;
+	}
+	#sec-slide h4{
+		font-size: 18px;
+	}
+}
