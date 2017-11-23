@@ -1,101 +1,113 @@
-@charset "UTF-8";
-/* CSS Document */
-header{
-	background-color: #FFFFFF;
-	padding: 10px;
+body{
+	font-family: Segoe UI;
+	font-size: 14px;
+	color: #000;
 }
-#sec-slide{
-	/*background-image: url(../img/bg-parallax.jpg);*/
+header{
+	background-color:#343434; 
+}
+#sec-slides{
+	/*background-image: url(../img/slider-1.jpg);
 	background-repeat: no-repeat;
 	background-position: top center;
-	background-size: cover;
-	color: #FFFFFF;
+	background-size: cover;*/
+	color: #fff;
 	/*padding: 100px 0px;*/
+}
+#sec-slides h4{
+	font-size: 34px;
+	text-transform: uppercase;
+}
+#sec-slides h2{
+	font-size: 64px;
+	text-transform: uppercase;
+}
+#sec-slides p{
+	font-size: 18px;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+#sec-slides a{
+	text-transform: uppercase;
+}
+#sec-slides .btn-warning{
+	background-color: #e7931a;
+	border: 0;
+}
+#sec-slides .btn-warning:hover{
+	background-color: #343434;
+}
+#sec-slides .btn-default{
+	background-color: transparent;
+	border-width: 2px;
+	color: #fff;
+}
+#sec-slides .btn-default:hover{
+	background-color: #e7931a;
+	border-color: #e7931a;
+}
+.title{
+	font-size: 45px;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+#sec-services h4{
+	text-transform: uppercase;
+	color: #000;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+
+#sec-counters h3{
+	color: #e7931a;
+	font-size: 80px;
+	font-weight: 600;
 	text-align: center;
 }
 
-#sec-slide h4{
-	font-family: "Segoe UI";
-	font-size: 32px;
-	font-weight: 300;
-}
-#sec-slide h1{
-	font-family: "Segoe UI";
-	font-size: 65px;
-	font-weight: 600;
-}
-#sec-slide p{
-	font-size: 18px;
-	padding-bottom: 20px;
-	padding-top: 20px;
-}
-#sec-slide .btn-warning{
-	text-transform: uppercase;
-	background-color: #F38E00;
-	color: #FFFFFF;
-	margin: 20px;
-	font-family: "Segoe UI";
-	font-weight: 200;
-}
-#sec-slide .btn-warning:hover{
-	background-color: #323232;
-}
-#sec-slide .btn-default{
-	text-transform: uppercase;
-	background-color: transparent;
-	border: solid 2px;
-	color: #FFFFFF;
-	margin: 20px;
-	font-family: "Segoe UI";
-	font-weight: 200;
-}
-#sec-slide .btn-warning:hover{
-	background-color: #F38E00;
-}
-.title{
-	font-family: "Segoe UI";
-	font-weight: 700;
-	font-size: 45px;
+#sec-counters p{
 	text-align: center;
-	margin-bottom: 30px;
+	font-size: 20px;
 }
 
 #sec-counters{
 	background-color: #f3f0eb;
 }
 
-#sec-counters h3{
-	font-family: "Segoe UI";
-	color: #E7931A;
-	font-size: 68px;
-	text-align: center;
-	font-weight: 600;
-	
-}
-
-#sec-counters p{
-	font-size: 18px;
-}
-
 .section{
 	padding: 40px 0px;
 }
 
-
 @media (max-width:480px){
-	#sec-slide h1{
+	
+	#sec-slides h2{
 		font-size: 20px;
 	}
-	#sec-slide h4{
-		font-size: 14px;
+	#sec-slides h4{
+		font-size: 16px;
 	}
+	
 }
 
-@media (min-width: 480px) and (max-width:768px){
-	#sec-slide h1{
-		font-size: 24px;
+@media (min-width:480px) and (max-width:768px){
+	
+	#sec-slides h2{
+		font-size: 30px;
 	}
-	#sec-slide h4{
+	#sec-slides h4{
 		font-size: 18px;
 	}
+	
 }
+
+
+
+
+
+
+

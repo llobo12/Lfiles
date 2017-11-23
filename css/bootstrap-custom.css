@@ -2,35 +2,35 @@ a{
 	outline:0 !important;	
 }
 .navbar-default {
-	background-color: transparent;
+	background-color:#fff;
 	font-size:16px;
 	border-radius:0;
 	margin-bottom:0;
 	border:0;	
 }
 .navbar-default .navbar-nav li a{
-	color:#000000;	
+	color:#000;	
 	font-weight:400;
 }
 .navbar-default .navbar-nav li a:hover{
-	color:#E7931A;	
+	color:#e7931a;	
 }
 .navbar-default .navbar-nav li.active a{
 	background-color:transparent;
-	color:#E7931A;		
+	color:#e7931a;		
 }
 .navbar-default .navbar-nav li.active a:hover{
 	background-color:#FFF;
-	color: #E7931A;
+	color:#e7931a;
 }
 
 .navbar-default .navbar-nav > li > a:focus{
-	color: #E7931A;	
+	color: #e7931a;	
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover{
-    color: #E7931A;
+    color: #e7931a;
     background-color: transparent;
 }
 
@@ -47,17 +47,17 @@ a{
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-  color: #E7931A;
+  color: #e7931a;
   text-decoration: none;
   background-color: transparent;
 }
 
 .navbar-default .navbar-toggle{
 	border-color:#AFAFAF;	
-	border:1px solid transparent;
+	border:1px solid #fff;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #E7931A;
+    background-color: #e7931a;
 }
 .navbar-default .navbar-toggle:hover {
     background-color: #fff;
@@ -91,8 +91,22 @@ a{
     }
 }
 
+
 .left.carousel-control,
-.right.carousel-control{
+.right.carousel-control
+{
 	box-shadow: none;
 	background-image: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
